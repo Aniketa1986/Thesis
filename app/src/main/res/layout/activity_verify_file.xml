@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F0F0F0"
+    android:orientation="vertical"
+    tools:context="AniketaSharma.de.hfu.digisign.MainActivity.java.SignSendFileActivity">
+
+    <EditText
+        android:id="@+id/imei"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="@string/hint"
+        android:password="true" />
+
+    <ImageView
+        android:id="@+id/imgViewR"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/app_name" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAFFFFFF">
+
+        <Button
+            android:id="@+id/button_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#E0E0E0"
+            android:gravity="center"
+            android:text="@string/verify_file" />
+
+    </RelativeLayout>
+</LinearLayout>
